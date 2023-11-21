@@ -1,0 +1,43 @@
+<!-- activity_vote_count.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/itVoteCountTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IT Vote Count: 0"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/cseVoteCountTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CSE Vote Count: 0"
+        android:textSize="20sp"
+        android:layout_below="@id/itVoteCountTextView"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/adsVoteCountTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADS Vote Count: 0"
+        android:textSize="20sp"
+        android:layout_below="@id/cseVoteCountTextView"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/mctVoteCountTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MCT Vote Count: 0"
+        android:textSize="20sp"
+        android:layout_below="@id/adsVoteCountTextView"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>
